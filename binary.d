@@ -33,7 +33,7 @@ int main()
 		p *= 10; // p = p*10*10*....*10.
 	}
 	// writeln(s.stringof);
-	writefln("(%d)10 = (%b)2", rx, s);
+	writefln("(%d)10 = (%d)2", rx, s);
 
 	return 0;
 }
