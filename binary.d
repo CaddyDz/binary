@@ -4,12 +4,14 @@
  * Language:  D
  */
 import std.stdio;
+import namespace.browser;
 
 /// This constant is called base example (base 10).
 const base = 2;
 
 int main()
 {
+	saySomething();
 	/*
 		* vars
 		* int p  => One degree displacement.
